@@ -1,0 +1,136 @@
+.App {
+    margin: 50px 60px;
+    display: flex;
+}
+
+.Chat-list {
+    display: flex;
+    flex-direction: column;
+    height: 634px;
+    background-color: #ededed;
+}
+
+.header {
+    display: flex;
+    height: 100%;
+    width: 400px;
+    max-height: 40px;
+    padding: 10px;
+    background-color: #ededed;
+    justify-content: space-between;
+    border: rgba(0, 0, 0, 0.1) 1px solid;
+}
+
+.title {
+    margin: auto 20px;
+}
+
+.back-icon {
+    margin: auto 20px;
+}
+
+.Chat-list-element {
+    display: flex;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: auto 0px;
+    background-color: #ededed;
+    border: rgba(0, 0, 0, 0.1) 1px solid;
+}
+
+.Chat {
+    display: flex;
+    flex-direction: column;
+}
+
+.Chat-Name {
+    margin: auto 10px;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin: auto 10px;
+}
+
+.message-content {
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: scroll;
+    background-image: url('chat-bg.png');
+    background-color: rgba(229, 221, 213, .93);
+    background-blend-mode: lighten;
+    width: 900px;
+    height: 500px;
+}
+
+.message {
+    background-color: white;
+    color: black;
+    margin: 10px 30px;
+    margin-left: auto;
+    padding: 15px 30px;
+    border-radius: 50px;
+    max-width: 370px;
+    word-break: break-all;
+}
+
+.message2 {
+    background-color: white;
+    color: black;
+    margin: 10px 30px;
+    margin-right: auto;
+    padding: 15px 30px;
+    border-radius: 50px;
+    max-width: 370px;
+    flex-wrap: wrap;
+    word-break: break-all;
+}
+
+.input-message {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-left: 1px rgba(0, 0, 0, 0.1) solid;
+}
+
+.input-box {
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 15px;
+    border-radius: 50px;
+    border: 2px white solid;
+    margin: auto 20px;
+    width: 727px;
+}
+
+.input-box:focus {
+    outline: none;
+}
+
+.send-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin: auto 10px;
+    cursor: pointer;
+    color: white;
+    background-color: yellow;
+    background-image: url('./Components/send-button.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70%;
+    border: 1px yellow solid;
+    filter: invert(100%)
+}
+
+.send-button-image {
+    height: 40px;
+    width: auto;
+}
+
+.usernameofothers {
+    font-weight: 200;
+    color: rgb(54, 105, 180);
+}
